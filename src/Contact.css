@@ -1,0 +1,234 @@
+::-webkit-scrollbar {
+    display: none;
+  }
+  
+#title {
+  background-color: #c539b4;
+}
+.title-container {
+  padding: 2% 15%;
+  /* position: relative; */
+}
+
+.section {
+  width: 100%;
+  /* margin-top:50px; */
+  /* margin-bottom: 50px; */
+  padding: 50px 0;
+  /* display: flex; */
+  /* justify-content: center; */
+  background: linear-gradient(
+    90deg,
+    #852999 0%,
+    #852999 30%,
+    #D989B5 30%,
+    #D989B5 100%
+  );
+  /* background-color: #ccc; */
+}
+
+.twoinonesection {
+  width: 100%;
+  /* border:1px solid green; */
+  display: flex;
+  justify-content: center;
+  gap: 2px;
+}
+.navbar-brand
+{
+  font-family: "Merriweather";
+  /* font-size: 99px; */
+}
+.twosection {
+  /* border: 1px solid red; */
+  width: 85%;
+  display: flex;
+  /* gap:100px; */
+  justify-content: space-around;
+}
+
+.sectionmain {
+  display: flex;
+  margin: 50px 0 50px 0;
+  background-color: white;
+}
+
+.section h1 {
+  text-transform: capitalize;
+  text-align: center;
+  color: #fff;
+}
+
+.messagebox {
+  /* border: 1px solid red; */
+  padding: 25px 35px 25px 35px;
+}
+
+.messagebox h2 {
+  color: #044e8b;
+}
+
+.twoinput_horizontal_align {
+  margin-top: 25px;
+  display: flex;
+  gap: 20px;
+}
+
+.twoinputfield_vertical_align {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.twoinputfield_vertical_align label {
+  text-transform: capitalize;
+  font-weight: bold;
+  color: #45a7f6;
+}
+
+.twoinputfield_vertical_align input {
+  padding: 5px 10px 5px 10px;
+  font-weight: bold;
+  font-size: large;
+  width: 350px;
+}
+
+#email,
+#no {
+  font-weight: 100;
+}
+.err {
+  color: red;
+}
+.commentbox {
+  margin-top: 25px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.commentbox label {
+  text-transform: capitalize;
+  font-weight: bold;
+  color: #45a7f6;
+}
+
+.commentbox textarea {
+  width: 100%;
+  min-height: 385px;
+  resize: vertical;
+  padding: 10px;
+}
+
+.button {
+  margin-top: 20px;
+}
+
+.button input {
+  padding: 10px 30px 10px 30px;
+  text-transform: capitalize;
+  background-color: #e67a0b;
+  color: white;
+  outline: none;
+  border: none;
+}
+#about-us
+{
+  background-color:#e67a0b;
+  color: #fff;
+  
+  overflow: hidden;
+  font-size: 20px;
+}
+.section h1
+{
+  color: #000;
+}
+.desc
+{
+  width: 90%;
+}
+.button input:hover {
+  cursor: pointer;
+  background-color: #d46e07;
+}
+
+/* .contactandmap{
+    display: flex;
+    flex-direction: column;
+} */
+.contactinfo {
+  margin: 50px 0 50px 0;
+  /* border:1px solid blue; */
+  padding: 25px 25px 25px 25px;
+  background-color: #f58618;
+  color: white;
+  /* display: inline-block; */
+  max-width: 450px;
+}
+
+.contactinfo h2 {
+  text-transform: capitalize;
+}
+
+.contactdetailslist {
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.contactdetailslist ion-icon {
+  padding: 10px;
+  border-radius: 50%;
+  background-color: #f9a450;
+}
+
+.contactdetailslist i {
+  padding: 10px;
+  border-radius: 50%;
+  background-color: #f9a450;
+}
+
+.socialmedia {
+  display: flex;
+  margin-top: 30px;
+  gap: 10px;
+  align-items: center;
+}
+
+.socialmedia ion-icon,
+.socialmedia i {
+  font-size: 25px;
+  color: rgba(255, 255, 255, 0.845);
+}
+
+#blue:hover {
+  color: #3b5998;
+  /* background-color: #fff; */
+}
+
+.circle {
+  border-radius: 50%;
+}
+
+#white:hover {
+  color: #3b5998;
+  background: white;
+}
+
+#insta:hover {
+  border-radius: 8px;
+  background-image: linear-gradient(
+    #405de6,
+    #5851db,
+    #833ab4,
+    #c13584,
+    #e1306c,
+    #fd1d1d,
+    #f56040,
+    #f77737,
+    #fcaf45,
+    #ffdc80
+  );
+}
