@@ -33,7 +33,6 @@
   font-size: 3.5rem;
   line-height: 1.5;
   font-weight: bolder;
-  text-align: left;
   color: #fff;
 }
 
@@ -351,6 +350,7 @@ h2 {
     /* transform : rotate(0); */
     width: 40%;
     bottom: -3%;
+    left: 50px;
     /* right: 0%; */
   }
 
